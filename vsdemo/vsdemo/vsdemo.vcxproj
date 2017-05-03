@@ -158,12 +158,17 @@
   <ItemGroup>
     <ClCompile Include="filechange.cpp" />
     <ClCompile Include="idlebasic.cpp" />
+    <ClCompile Include="progress.cpp" />
+    <ClCompile Include="queuecancel.cpp" />
+    <ClCompile Include="queuework.cpp" />
+    <ClCompile Include="rwlocks.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="threadcreate.cpp" />
     <ClCompile Include="uvcat.cpp" />
     <ClCompile Include="uv_helloworld.cpp" />
     <ClCompile Include="vsdemo.cpp" />

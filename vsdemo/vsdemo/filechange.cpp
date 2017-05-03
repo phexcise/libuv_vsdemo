@@ -1,7 +1,6 @@
 #include "stdafx.h"
 #include "uv_task.h"
 
-uv_loop_t *loop;
 const char *command;
 
 void run_command(uv_fs_event_t *handle, const char *filename, int events, int status) {

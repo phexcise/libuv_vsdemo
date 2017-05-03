@@ -1,4 +1,16 @@
-﻿  filechange.cpp
+﻿  vsdemo.cpp
+  progress.cpp
+  正在生成代码...
+  正在编译...
+  uv_helloworld.cpp
+  uvcat.cpp
+  threadcreate.cpp
+  rwlocks.cpp
+  queuework.cpp
+  queuecancel.cpp
+  idlebasic.cpp
+  filechange.cpp
+  正在生成代码...
   libuv.lib(uv-common.obj) : 找到 MSIL .netmodule 或使用 /GL 编译的模块；正在使用 /LTCG 重新启动链接；将 /LTCG 添加到链接命令行以改进链接器性能
 LINK : warning LNK4075: 忽略“/INCREMENTAL”(由于“/LTCG”规范)
 filechange.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/OPT:LBR”规范)
@@ -8,20 +20,20 @@ libuv.lib(uv-common.obj) : warning LNK4099: 未找到 PDB“libuv.pdb”(使用�
 libuv.lib(core.obj) : warning LNK4099: 未找到 PDB“libuv.pdb”(使用“libuv.lib(core.obj)”或在“E:\libuv\vsdemo\libuv_vsdemo\vsdemo\Debug\libuv.pdb”中寻找)；正在链接对象，如同没有调试信息一样
 libuv.lib(fs-event.obj) : warning LNK4099: 未找到 PDB“libuv.pdb”(使用“libuv.lib(fs-event.obj)”或在“E:\libuv\vsdemo\libuv_vsdemo\vsdemo\Debug\libuv.pdb”中寻找)；正在链接对象，如同没有调试信息一样
 libuv.lib(loop-watcher.obj) : warning LNK4099: 未找到 PDB“libuv.pdb”(使用“libuv.lib(loop-watcher.obj)”或在“E:\libuv\vsdemo\libuv_vsdemo\vsdemo\Debug\libuv.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libuv.lib(handle.obj) : warning LNK4099: 未找到 PDB“libuv.pdb”(使用“libuv.lib(handle.obj)”或在“E:\libuv\vsdemo\libuv_vsdemo\vsdemo\Debug\libuv.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libuv.lib(async.obj) : warning LNK4099: 未找到 PDB“libuv.pdb”(使用“libuv.lib(async.obj)”或在“E:\libuv\vsdemo\libuv_vsdemo\vsdemo\Debug\libuv.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libuv.lib(threadpool.obj) : warning LNK4099: 未找到 PDB“libuv.pdb”(使用“libuv.lib(threadpool.obj)”或在“E:\libuv\vsdemo\libuv_vsdemo\vsdemo\Debug\libuv.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libuv.lib(signal.obj) : warning LNK4099: 未找到 PDB“libuv.pdb”(使用“libuv.lib(signal.obj)”或在“E:\libuv\vsdemo\libuv_vsdemo\vsdemo\Debug\libuv.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libuv.lib(thread.obj) : warning LNK4099: 未找到 PDB“libuv.pdb”(使用“libuv.lib(thread.obj)”或在“E:\libuv\vsdemo\libuv_vsdemo\vsdemo\Debug\libuv.pdb”中寻找)；正在链接对象，如同没有调试信息一样
 libuv.lib(fs.obj) : warning LNK4099: 未找到 PDB“libuv.pdb”(使用“libuv.lib(fs.obj)”或在“E:\libuv\vsdemo\libuv_vsdemo\vsdemo\Debug\libuv.pdb”中寻找)；正在链接对象，如同没有调试信息一样
 libuv.lib(udp.obj) : warning LNK4099: 未找到 PDB“libuv.pdb”(使用“libuv.lib(udp.obj)”或在“E:\libuv\vsdemo\libuv_vsdemo\vsdemo\Debug\libuv.pdb”中寻找)；正在链接对象，如同没有调试信息一样
 libuv.lib(tcp.obj) : warning LNK4099: 未找到 PDB“libuv.pdb”(使用“libuv.lib(tcp.obj)”或在“E:\libuv\vsdemo\libuv_vsdemo\vsdemo\Debug\libuv.pdb”中寻找)；正在链接对象，如同没有调试信息一样
 libuv.lib(inet.obj) : warning LNK4099: 未找到 PDB“libuv.pdb”(使用“libuv.lib(inet.obj)”或在“E:\libuv\vsdemo\libuv_vsdemo\vsdemo\Debug\libuv.pdb”中寻找)；正在链接对象，如同没有调试信息一样
 libuv.lib(pipe.obj) : warning LNK4099: 未找到 PDB“libuv.pdb”(使用“libuv.lib(pipe.obj)”或在“E:\libuv\vsdemo\libuv_vsdemo\vsdemo\Debug\libuv.pdb”中寻找)；正在链接对象，如同没有调试信息一样
 libuv.lib(timer.obj) : warning LNK4099: 未找到 PDB“libuv.pdb”(使用“libuv.lib(timer.obj)”或在“E:\libuv\vsdemo\libuv_vsdemo\vsdemo\Debug\libuv.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libuv.lib(async.obj) : warning LNK4099: 未找到 PDB“libuv.pdb”(使用“libuv.lib(async.obj)”或在“E:\libuv\vsdemo\libuv_vsdemo\vsdemo\Debug\libuv.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libuv.lib(signal.obj) : warning LNK4099: 未找到 PDB“libuv.pdb”(使用“libuv.lib(signal.obj)”或在“E:\libuv\vsdemo\libuv_vsdemo\vsdemo\Debug\libuv.pdb”中寻找)；正在链接对象，如同没有调试信息一样
 libuv.lib(tty.obj) : warning LNK4099: 未找到 PDB“libuv.pdb”(使用“libuv.lib(tty.obj)”或在“E:\libuv\vsdemo\libuv_vsdemo\vsdemo\Debug\libuv.pdb”中寻找)；正在链接对象，如同没有调试信息一样
 libuv.lib(poll.obj) : warning LNK4099: 未找到 PDB“libuv.pdb”(使用“libuv.lib(poll.obj)”或在“E:\libuv\vsdemo\libuv_vsdemo\vsdemo\Debug\libuv.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libuv.lib(thread.obj) : warning LNK4099: 未找到 PDB“libuv.pdb”(使用“libuv.lib(thread.obj)”或在“E:\libuv\vsdemo\libuv_vsdemo\vsdemo\Debug\libuv.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libuv.lib(threadpool.obj) : warning LNK4099: 未找到 PDB“libuv.pdb”(使用“libuv.lib(threadpool.obj)”或在“E:\libuv\vsdemo\libuv_vsdemo\vsdemo\Debug\libuv.pdb”中寻找)；正在链接对象，如同没有调试信息一样
 libuv.lib(winsock.obj) : warning LNK4099: 未找到 PDB“libuv.pdb”(使用“libuv.lib(winsock.obj)”或在“E:\libuv\vsdemo\libuv_vsdemo\vsdemo\Debug\libuv.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libuv.lib(handle.obj) : warning LNK4099: 未找到 PDB“libuv.pdb”(使用“libuv.lib(handle.obj)”或在“E:\libuv\vsdemo\libuv_vsdemo\vsdemo\Debug\libuv.pdb”中寻找)；正在链接对象，如同没有调试信息一样
 libuv.lib(error.obj) : warning LNK4099: 未找到 PDB“libuv.pdb”(使用“libuv.lib(error.obj)”或在“E:\libuv\vsdemo\libuv_vsdemo\vsdemo\Debug\libuv.pdb”中寻找)；正在链接对象，如同没有调试信息一样
 libuv.lib(fs-poll.obj) : warning LNK4099: 未找到 PDB“libuv.pdb”(使用“libuv.lib(fs-poll.obj)”或在“E:\libuv\vsdemo\libuv_vsdemo\vsdemo\Debug\libuv.pdb”中寻找)；正在链接对象，如同没有调试信息一样
 libuv.lib(winapi.obj) : warning LNK4099: 未找到 PDB“libuv.pdb”(使用“libuv.lib(winapi.obj)”或在“E:\libuv\vsdemo\libuv_vsdemo\vsdemo\Debug\libuv.pdb”中寻找)；正在链接对象，如同没有调试信息一样

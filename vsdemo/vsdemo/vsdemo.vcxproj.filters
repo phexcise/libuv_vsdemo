@@ -47,5 +47,20 @@
     <ClCompile Include="filechange.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="threadcreate.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="rwlocks.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="queuework.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="queuecancel.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="progress.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
