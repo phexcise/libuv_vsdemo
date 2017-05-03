@@ -1,6 +1,7 @@
 #include "stdafx.h"
 #include "uv_task.h"
 
+int tracklen = 10;
 void hare(void *arg) {
 	int tracklen = *((int *)arg);
 	while (tracklen) {
@@ -22,7 +23,6 @@ void tortoise(void *arg) {
 }
 
 void threadcreate() {
-	int tracklen = 10;
 	uv_thread_t hare_id;
 	uv_thread_t tortoise_id;
 	uv_thread_create(&hare_id, hare, &tracklen);
